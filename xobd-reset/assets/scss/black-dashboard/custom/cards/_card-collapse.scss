@@ -1,0 +1,74 @@
+.card-collapse{
+    .card{
+        margin-bottom: 0px;
+        background: $transparent-bg;
+        box-shadow: none;
+
+        .card-header{
+            position: relative;
+
+            a[data-toggle="collapse"]{
+                display: block;
+                color: white !important;
+			    font-size:0.875rem;
+				padding: 1rem 0.75rem;
+                i{
+                    float: right;
+                    position: relative;
+                    color: $primary;
+                    top: 1px;
+                    @extend .animation-transition-general;
+                }
+            }
+			
+            a[aria-expanded="true"]{
+               @include diagonal-gradient($primary, $primary-states);
+                i{
+                    color: white !important;
+                }
+            }
+
+            &:after{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background: rgba($white,0.1);
+
+            }
+
+
+        }
+
+        .card-body{
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            color: rgba($white,0.5);
+        }
+
+        &:last-child{
+          .card-header:after{
+            content: none;
+          }
+        }
+    }
+}
+
+.special-card .card-header
+{
+padding: 0px !important;
+}
+.card-header-main
+{
+
+.card-category{
+padding-top:10px !important;
+padding-left:10px !important;
+
+}
+.card-title {
+padding-left:10px !important;
+}
+}
