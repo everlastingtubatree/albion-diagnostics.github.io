@@ -90,15 +90,6 @@ $( document ).ready(function() {
 	   $(".icon-suzuki, .icon-mazda, .icon-mg").parent().parent().show();
 	});
 	
-	
-   $("#abs-bleeding").click(function() {
-	   $(".makes ul li").hide();
-	    $(".no-support").hide();
-	   $("#no-support-european").show();
-	   $("#no-support-american").show();
-	   $(".icon-suzuki, .icon-mazda, .icon-mg").parent().parent().show();
-	});
-	
    $("#window").click(function() {
 	   $(".makes ul li").hide();
 	   $(".no-support").hide();

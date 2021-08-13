@@ -1837,11 +1837,9 @@ color:white !important;
 									.icon-android {content: url('android-inactive.png');}
 									.active > .icon-android {content: url('android.png');}
 									
-									.icon-injector-coding {content: url('injector-2.png'); }
-									.icon-airbag-reset {content: url('airbag-reset.png'); }
-									.icon-oil-reset {content: url('oil.png'); }
+
 									
-									ul.functions  li a > img {
+									/*ul.functions  li a > img {
 									height:70px;
 									margin-left:auto;
 									margin-right:auto;
@@ -1855,21 +1853,56 @@ color:white !important;
 									align-items: center;
 									}
 									
-									#compatibility .nav-link,
-									.functions-main .nav-link {
-									color: white !important;
-									}
 
-									.functions li {
-									  width:20%;
-									}
+					
 									.tim-icons{
 									margin-left:auto;
 									margin-right:auto;
 									}
+									
+													.functions li {
+									  width:20%;
+									}
+									*/
+									
+									.functions .tim-icons{
+									width:30%;
+									margin-left:auto;
+									margin-right:auto;
+									}
+									
+									ul.functions li{
+						
+									min-height:150px;
+									}
+									#compatibility .nav-link,
+									.functions-main .nav-link {
+									color: white !important;
+									min-height:150px;	
+									}
+
 									.icon-american {content: url('american-inactive.png');}
 									.active > .icon-american {content: url('american.png');}
 									
+									.icon-injector-coding {content: url('injector-2.png'); }
+									.icon-airbag-reset {content: url('airbag-reset.png'); }
+									.icon-oil-reset {content: url('oil.png'); }
+									.icon-steering-angle {content: url('steering-angle.png'); }			
+									.icon-battery {content: url('battery.png'); }	
+									.icon-tpms {content: url('tpms.png'); }	
+									.icon-throttle {content: url('throttle.png'); }	
+									.icon-transmission {content: url('transmission.png'); }	
+									.icon-dash-coding {content: url('dash-coding.png'); }
+									.icon-window {content: url('window.png'); }		
+									.icon-dpf {content: url('dpf.png'); }		
+									.icon-suspension {content: url('suspension.png'); }			
+									.icon-head-lamp {content: url('head-lamp.png'); }			
+									.icon-gear-learning {content: url('gear-learning.png'); }					
+									.icon-abs {content: url('abs.png'); }		
+									.icon-airbag-reset {content: url('airbag-reset.png'); }			
+									.icon-epb {content: url('epb.png'); }	
+
+									}									
 									</style>
 <!--
                                 color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"     
@@ -1881,216 +1914,119 @@ color:white !important;
                                       class="tab-content tab-space functions-main">
 									  
                                     <ul class="nav nav-pills nav-pills-secondary nav-pills-icons justify-content-center functions">
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="steering-angle">
-                                          <img src="steering-angle.png">
-Steering
-														Angle Learning (SAS)
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers" id="steering-angle">
+                                          <i class="tim-icons icon-steering-angle"></i>
+<span>Steering
+														Angle Learning (SAS)</span></a>
                                           </a>
                                       </li>
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="oil">
-                                          <img src="oil.png">
-Oil
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="oil">
+                                          <i class="tim-icons icon-oil-reset"></i>
+<span>Oil
 														Service
-														Reset
+														Reset</span>
                                           </a>
                                       </li>
-                                      <li
-
-                                        class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="injector-coding">
-                                         <img src="injector-2.png">
-                                          <span>Injector Coding</span>
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="injector-coding">
+                                          <i class="tim-icons icon-injector-coding"></i>
+<span>Injector Coding
                                           </a>
                                       </li>
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="epb">
-                                          <img src="epb.png">
-Electronic
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="epb">
+                                          <i class="tim-icons icon-epb"></i>
+<span>Electronic
 														Parking
 														Brake
-														Reset
+														Reset</span>
                                           </a>
                                       </li>
 
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="battery-registration">
-                                          <img src="battery.png">
-Battery
-														Registration
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="battery-registration">
+                                          <i class="tim-icons icon-battery"></i>
+<span>Battery
+														Registration</span>
                                           </a>
                                       </li>
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="tpms">
-                                          <img src="tpms.png">
-TPMS
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="tpms">
+                                          <i class="tim-icons icon-tpms"></i>
+<span>TPMS
                                           </a>
                                       </li>
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="tps">
-                                          <img src="throttle.png">
-Throttle
-														Position Sensor Adjustment
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="tps">
+                                          <i class="tim-icons icon-throttle"></i>
+<span>Throttle
+														Position Sensor Adjustment</span>
                                           </a>
                                       </li>
-                                     <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="gear-box-matching">
-                                          <img src="transmission.png">
-Gearbox
-														Matching
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="gear-box-matching">
+                                          <i class="tim-icons icon-transmission"></i>
+<span>Gearbox
+														Matching</span>
                                           </a>
                                       </li>
-                                     <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="dashboard-recovery">
-                                          <img src="dash-coding.png">
-Dashboard
-														Recovery
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="dashboard-recovery">
+                                          <i class="tim-icons icon-dash-coding"></i>
+<span>Dashboard
+														Recovery</span>
                                           </a>
                                       </li>
-                                     <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="window">
-                                          <img src="window.png">
-Window
-														Initialisation
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="window">
+                                          <i class="tim-icons icon-window"></i>
+<span>Window
+														Initialisation</span>
                                           </a>
                                       </li>
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="dpf">
-                                          <img src="dpf.png">
-Diesel Particulate Filter (DPF)
-														Reset
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="dpf">
+                                          <i class="tim-icons icon-dpf"></i>
+<span>Diesel Particulate Filter (DPF)
+														Reset</span>
                                           </a>
                                       </li>
-                                     <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="air-suspension">
-                                          <img src="suspension.png">
-Air Suspension
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="air-suspension">
+                                          <i class="tim-icons icon-suspension"></i>
+<span>Air Suspension</span>
                                           </a>
                                       </li>
-
-                                     <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="headlights">
-                                          <img src="head-lamp.png">
-Headlights
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="headlights">
+                                          <i class="tim-icons icon-head-lamp"></i>
+<span>Headlights</span>
                                           </a>
                                       </li>
-                                      <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="tooth">
-                                          <img src="gear-learning.png">
-Tooth/Gear
-														Learning
+                                      </li>
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="tooth">
+                                          <i class="tim-icons icon-gear-learning"></i>
+<span>Tooth/Gear
+														Learning</span>
                                           </a>
                                       </li>
-                                     <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="abs-bleeding">
-                                          <img src="abs.png">
-ABS
-														Bleeding
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="abs-bleeding">
+                                          <i class="tim-icons icon-abs"></i>
+<span>ABS
+														Bleeding</span>
                                           </a>
                                       </li>
-                                     <li class="nav-item">
-                                        <a
-
-                                          class="nav-link ios-button"
-
-                                          data-toggle="tab"
-
-                                          href="#manufacturers" id="airbag-reset">
-                                         <img src="airbag-reset.png">
-Airbag Reset
+									  <li class="nav-item">
+                                        <a class="nav-link ios-button" data-toggle="tab" href="#manufacturers"  id="airbag-reset">
+                                          <i class="tim-icons icon-airbag-reset"></i>
+<span>Airbag Reset</span>
                                           </a>
                                       </li>
+									  
                                     </ul>
                                     <div
 
